@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "EldenRingChecker",
-    "slug": "EldenRingChecker",
+    "name": "Elden Ring Checker",
+    "slug": "elden-ring-checker",
+    "description": "Checklist for all true bosses of Elden Ring",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/map.png",
     "platforms": ["android", "ios", "web"],
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/map.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
