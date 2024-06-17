@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d6d5c970-6f9b-401c-8833-ba734db083c9"
+      }
+    },
+    "owner": "jacksonrhea"
   }
 }
