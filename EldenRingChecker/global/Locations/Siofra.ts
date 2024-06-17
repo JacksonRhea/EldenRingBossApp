@@ -1,0 +1,61 @@
+import { Boss } from "../../models/Bosses";
+
+export const bosses: Record<string, Boss> = {
+  ancestorSpirit: {
+    name: "Ancestor Spirit",
+    image: "path/to/image.png",
+    description:
+      "To fight the Ancestor Spirit, you must first light the eight torches in the area. Once all eight torches are lit, return to the Ancestor Spirit's location to activate the boss fight.",
+    location: "Hallowhorn Grounds (South), Siofra River",
+    itemDrops: ["Ancestral Follower"],
+    runeRewards: "13000 (NG)",
+    healthPoints: "",
+    affectedBy: [],
+    weakness: ["Slash"],
+    resistance: ["Bleed", "Frost", "Scarlet Rot", "Poison"],
+    immune: ["Sleep"],
+    moreInfo: false,
+    completed: false,
+  },
+  dragonkinSoldierSiofraRiver: {
+    name: "Dragonkin Soldier",
+    image: "path/to/image.png",
+    description:
+      "The Dragonkin Soldier is encountered as a boss in Siofra River located in the western part of the area in a shallow river basin.",
+    location: "Siofra River",
+    itemDrops: ["Dragon Halberd", "Lakes of Rot: Dragon Scale Blade"],
+    runeRewards: "16000 (Siofra River) + 38000 (Lake of Rot) (NG)",
+    healthPoints: "",
+    affectedBy: ["Poison", "Scarlet Rot", "Bleed"],
+    weakness: ["Slash"],
+    resistance: ["Lightning", "Bleed", "Frost", "Scarlet Rot", "Poison"],
+    immune: ["Sleep", "Madness", "Instant Death"],
+    moreInfo: false,
+    completed: false,
+  },
+  mohgLordOfBlood: {
+    name: "Mohg, Lord of Blood",
+    image: "path/to/image.png",
+    description:
+      "Mohg, Lord of Blood can be found in Mohgwyn Dynasty Mausoleum, in Siofra River. This location can be unlocked by progressing through White-Faced Varre's questline. Use the Pureblood Knight's Medal you obtain from him to travel to Mohgwyn's Palace. Mohg, Lord of Blood can be found at the top of the area.",
+    location: "Mohgwyn Dynasty Mausoleum, Siofra River",
+    itemDrops: ["Mohg's Great Rune", "Remembrance of the Blood Lord"],
+    runeRewards: "420000 (NG)",
+    healthPoints: "",
+    affectedBy: ["Poison", "Scarlet Rot", "Bleed", "Frost"],
+    weakness: [
+      "Standard",
+      "Strike",
+      "Slash",
+      "Magic",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Thrust",
+    ],
+    resistance: [],
+    immune: ["Madness", "Instant Death"],
+    moreInfo: false,
+    completed: false,
+  },
+};

@@ -1,0 +1,67 @@
+import { Boss } from "../../models/Bosses";
+
+export const bosses: Record<string, Boss> = {
+  mimicTear: {
+    name: "Mimic Tear",
+    image: "path/to/image.png",
+    description:
+      "The Mimic Tear will copy your character's stats, including the resistances and weaknesses of your currently equipped armor.",
+    location: "Nokron, Eternal City",
+    itemDrops: ["Larval Tear x 2", "Silver Tear Mask"],
+    runeRewards: "10000 (NG)",
+    healthPoints: "",
+    affectedBy: [
+      "Poison",
+      "Scarlet Rot",
+      "Bleed",
+      "Frost",
+      "Sleep",
+      "Instant Death",
+    ],
+    weakness: [],
+    resistance: [],
+    immune: [],
+    moreInfo: false,
+    completed: false,
+  },
+  regalAncestorSpirit: {
+    name: "Regal Ancestor Spirit",
+    image: "path/to/image.png",
+    description:
+      "Regal Ancestor Spirit can be found after touching the Ancestral Remain in Hallowhorn Grounds (North). You'll need to first light six towers in the area to gain access to this Boss. The Ancestral Woods will be the nearest Site of Grace. It will drop the Remembrance of the Regal Ancestor.",
+    location: "Hallowhorn Grounds (North), Nokron",
+    itemDrops: ["Remembrance of the Regal Ancestor"],
+    runeRewards: "24000 (NG)",
+    healthPoints: "",
+    affectedBy: [],
+    weakness: ["Slash", "Holy"],
+    resistance: ["Bleed", "Frost", "Scarlet Rot", "Poison"],
+    immune: [],
+    moreInfo: false,
+    completed: false,
+  },
+  valiantGargoyles: {
+    name: "Valiant Gargoyles",
+    image: "path/to/image.png",
+    description:
+      "To reach the Valiant Gargoyle boss fight, you must first have defeated Radahn. After defeating Radahn a star will fall, opening up an entryway to Nokron, the Eternal City. To reach Nokron, the Eternal City, warp to the Mistwood Outskirts site of grace in Limgrave and head south. You will see boulders floating in the air. Descend into the pit to obtain the name Nokron, the Eternal City. Next, proceed through the area and fight the Mimic Tear boss. After that, go across the long bridge and take a left to find the Ancestor's Wood site of grace. From the Ancestor's Wood site of grace head northwest until you see Jelfyn Falls. Follow the floating rocks to a ledge you can drop down to find the Aqueduct Facing Cliffs site of grace. From there drop down and proceed through the short area leading to the boss arena.",
+    location: "Siofra Aqueduct, Nokron",
+    itemDrops: ["Gargoyle's Greatsword", "Gargoyle's Twinblade"],
+    runeRewards: "22500 (NG)",
+    healthPoints: "",
+    affectedBy: ["Poison", "Scarlet Rot", "Bleed"],
+    weakness: [],
+    resistance: [],
+    immune: [
+      "Bleed",
+      "Frost",
+      "Scarlet Rot",
+      "Sleep",
+      "Poison",
+      "Madness",
+      "Instant Death",
+    ],
+    moreInfo: false,
+    completed: false,
+  },
+};
